@@ -1,0 +1,22 @@
+{
+  "name": "Noxarc-Schema",
+  "homepage": "http://www.noxarc.com",
+  "authors": [
+    "Ahmet Ertem <amadertem@gmail.com>"
+  ],
+  "description": "Bootstrap utility belt for Noxarc",
+  "main": "",
+  "keywords": [
+    "bootstrap",
+    "noxarc"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ]
+}
