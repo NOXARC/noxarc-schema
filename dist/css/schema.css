@@ -151,6 +151,10 @@
     padding-top: 100%;
 }
 
+.na-w100 {
+	width: 100%;
+}
+
 @media (max-width: 767px) {
 
     /* positions */
