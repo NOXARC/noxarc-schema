@@ -32,6 +32,11 @@ You may call as below
 	-ms-transform-origin: $parameters;
 	transform-origin: $parameters;
 }
+@mixin transform-style($parameters) {
+	transform-style: $parameters;
+	-moz-transform-style: $parameters;
+	-webkit-transform-style: $parameters;
+}
 @mixin background-size($parameters) {
 	-webkit-background-size: $parameters;
 	-moz-background-size: $parameters;
