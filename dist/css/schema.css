@@ -79,6 +79,27 @@ You may call as below
 .na-b0 {
   bottom: 0; }
 
+.na-b5 {
+  bottom: 5%; }
+
+.na-b10 {
+  bottom: 10%; }
+
+.na-b15 {
+  bottom: 15%; }
+
+.na-b25 {
+  bottom: 25%; }
+
+.na-b50 {
+  bottom: 50%; }
+
+.na-b75 {
+  bottom: 75%; }
+
+.na-b100 {
+  bottom: 100%; }
+
 /* right */
 .na-r0 {
   right: 0; }
