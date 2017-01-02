@@ -12,24 +12,28 @@
 	position: fixed;
 }
 /* transformations */
-.na-trm500 {
-	@include transform(translate(-50%, 0));
+.na-tr {
+	&m500 {
+		@include transform(translate(-50%, 0));
+	}
+
+	&0m50 {
+		@include transform(translate(0, -50%));
+	}
+
+	&m50m50 {
+		@include transform(translate(-50%, -50%));
+	}
 }
 
-.na-tr0m50 {
-	@include transform(translate(0, -50%));
-}
+.na-ro {
+	&45 {
+		@include transform(rotate(45deg));
+	}
 
-.na-trm50m50 {
-	@include transform(translate(-50%, -50%));
-}
-
-.na-ro45 {
-	@include transform(rotate(45deg));
-}
-
-.na-rom45 {
-	@include transform(rotate(-45deg));
+	&m45 {
+		@include transform(rotate(-45deg));
+	}
 }
 
 .na-fill,
@@ -114,6 +118,10 @@
 
 .na-l50 {
 	left: 50%;
+}
+
+.na-l100 {
+	left: 100%;
 }
 /* displays */
 .na-db {
