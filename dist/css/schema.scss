@@ -24,6 +24,14 @@
 	&m50m50 {
 		@include transform(translate(-50%, -50%));
 	}
+
+	&m100m50 {
+		@include transform(translate(-100%, -50%));
+	}
+
+	&m100m100 {
+		@include transform(translate(-100%, -100%));
+	}
 }
 
 .na-ro {

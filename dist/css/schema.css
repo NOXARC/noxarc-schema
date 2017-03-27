@@ -31,6 +31,18 @@ You may call as below
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
+.na-trm100m50 {
+  -webkit-transform: translate(-100%, -50%);
+  -moz-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%); }
+
+.na-trm100m100 {
+  -webkit-transform: translate(-100%, -100%);
+  -moz-transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+  transform: translate(-100%, -100%); }
+
 .na-ro45 {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
