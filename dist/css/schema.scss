@@ -1,5 +1,9 @@
 @import '../scss/functions';
 /* positions */
+.na-ps {
+	position: static;
+}
+
 .na-pr {
 	position: relative;
 }
@@ -13,16 +17,30 @@
 }
 /* transformations */
 .na-tr {
+	&00 {
+		@include transform(translate(0, 0));
+	}
+	&0m50 {
+		@include transform(translate(0, -50%));
+	}
+	&0m100 {
+		@include transform(translate(0, -100%));
+	}
+
 	&m500 {
 		@include transform(translate(-50%, 0));
 	}
 
-	&0m50 {
-		@include transform(translate(0, -50%));
-	}
-
 	&m50m50 {
 		@include transform(translate(-50%, -50%));
+	}
+
+	&m50m100 {
+		@include transform(translate(-50%, -100%));
+	}
+
+	&m1000 {
+		@include transform(translate(-100%, 0));
 	}
 
 	&m100m50 {
@@ -52,37 +70,40 @@
 	left: 0;
 }
 /* top */
-.na-t0 {
-	top: 0;
+.na-t {
+	&0 {
+		top: 0;
+	}
+
+	&5 {
+		top: 5%;
+	}
+
+	&10 {
+		top: 10%;
+	}
+
+	&15 {
+		top: 15%;
+	}
+
+	&25 {
+		top: 25%;
+	}
+
+	&50 {
+		top: 50%;
+	}
+
+	&75 {
+		top: 75%;
+	}
+
+	&100 {
+		top: 100%;
+	}
 }
 
-.na-t5 {
-	top: 5%;
-}
-
-.na-t10 {
-	top: 10%;
-}
-
-.na-t15 {
-	top: 15%;
-}
-
-.na-t25 {
-	top: 25%;
-}
-
-.na-t50 {
-	top: 50%;
-}
-
-.na-t75 {
-	top: 75%;
-}
-
-.na-t100 {
-	top: 100%;
-}
 /* bottom */
 .na-b0 {
 	bottom: 0;
@@ -186,84 +207,135 @@
 	width: 100%;
 }
 @media (max-width: 767px) {
-	/* positions */
-	.na-xs-pr {
-		position: relative;
-	}
 
-	.na-xs-pa {
-		position: absolute;
-	}
 	/* transformations */
-	.na-xs-tr0m50 {
-		@include transform(translate(0, -50%));
-	}
-	/* top */
-	.na-xs-t0 {
-		top: 0;
+	.na-xs- {
+		&tr {
+			&00 {
+				@include transform(translate(0, 0));
+			}
+			&0m50 {
+				@include transform(translate(0, -50%));
+			}
+			&0m100 {
+				@include transform(translate(0, -100%));
+			}
+
+			&m500 {
+				@include transform(translate(-50%, 0));
+			}
+
+			&m50m50 {
+				@include transform(translate(-50%, -50%));
+			}
+
+			&m50m100 {
+				@include transform(translate(-50%, -100%));
+			}
+
+			&m1000 {
+				@include transform(translate(-100%, 0));
+			}
+
+			&m100m50 {
+				@include transform(translate(-100%, -50%));
+			}
+
+			&m100m100 {
+				@include transform(translate(-100%, -100%));
+			}
+		}
+
+		/* positions */
+		&p {
+			&s {
+				position: static;
+			}
+
+			&r {
+				position: relative;
+			}
+
+			&a {
+				position: absolute;
+			}
+
+			&f {
+				position: fixed;
+			}
+		}
+
+
+		/* top */
+		&t0 {
+			top: 0;
+		}
+
+		&t25 {
+			top: 25%;
+		}
+
+		&t50 {
+			top: 50%;
+		}
+
+		&t75 {
+			top: 75%;
+		}
+
+		&t100 {
+			top: 100%;
+		}
+		/* right */
+		&r0 {
+			right: 0;
+		}
+		/* bottom */
+		/* left */
+		&l0 {
+			left: 0;
+		}
+
+		/* floating */
+		&pull-none {
+			float: none !important;
+		}
+
+		&pull-left {
+			float: left !important;
+		}
+		/* effects */
+		&collapse {
+			display: none;
+		}
+
+		&collapse.flipper {
+			@include transform(rotateX(90deg));
+			@include transform-style(preserve-3d);
+			@include transform-origin(top center);
+			@include transition(all 250ms linear 0s);
+			-webkit-backface-visibility: hidden;
+			background-color: transparent;
+		}
+
+		&collapse.in {
+			display: block;
+		}
+
+		&collapse.flipper.in {
+			@include transform(rotateX(0));
+		}
+		/* displays */
+		&db {
+			display: block;
+		}
+
+		&w100 {
+			width: 100%;
+		}
 	}
 
-	.na-xs-t25 {
-		top: 25%;
-	}
 
-	.na-xs-t50 {
-		top: 50%;
-	}
-
-	.na-xs-t75 {
-		top: 75%;
-	}
-
-	.na-xs-t100 {
-		top: 100%;
-	}
-	/* right */
-	.na-xs-r0 {
-		right: 0;
-	}
-	/* bottom */
-	/* left */
-	.na-xs-l0 {
-		left: 0;
-	}
-	/* floating */
-	.na-xs-pull-none {
-		float: none !important;
-	}
-
-	.na-xs-pull-left {
-		float: left !important;
-	}
-	/* effects */
-	.na-xs-collapse {
-		display: none;
-	}
-
-	.na-xs-collapse.flipper {
-		@include transform(rotateX(90deg));
-		@include transform-style(preserve-3d);
-		@include transform-origin(top center);
-		@include transition(all 250ms linear 0s);
-		-webkit-backface-visibility: hidden;
-		background-color: transparent;
-	}
-
-	.na-xs-collapse.in {
-		display: block;
-	}
-
-	.na-xs-collapse.flipper.in {
-		@include transform(rotateX(0));
-	}
-	/* displays */
-	.na-xs-db {
-		display: block;
-	}
-
-	.na-xs-w100 {
-		width: 100%;
-	}
 }
 @media (max-width: 767px) and (orientation: landscape) {
 	.na-col-xs-l-6 {
