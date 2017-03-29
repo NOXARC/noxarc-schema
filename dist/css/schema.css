@@ -102,14 +102,53 @@ You may call as below
 .na-t15 {
   top: 15%; }
 
+.na-t20 {
+  top: 20%; }
+
 .na-t25 {
   top: 25%; }
+
+.na-t30 {
+  top: 30%; }
+
+.na-t35 {
+  top: 35%; }
+
+.na-t40 {
+  top: 40%; }
+
+.na-t45 {
+  top: 45%; }
 
 .na-t50 {
   top: 50%; }
 
+.na-t55 {
+  top: 55%; }
+
+.na-t60 {
+  top: 60%; }
+
+.na-t65 {
+  top: 65%; }
+
+.na-t70 {
+  top: 70%; }
+
 .na-t75 {
   top: 75%; }
+
+.na-t80 {
+  top: 80%; }
+
+.na-t85 {
+  top: 85%; }
+
+.na-t90 {
+  top: 90%; }
+
+.na-t95 {
+  top: 95%; }
 
 .na-t100 {
   top: 100%; }
@@ -264,12 +303,44 @@ You may call as below
       position: fixed; }
     .na-xs-t0 {
       top: 0; }
+    .na-xs-t5 {
+      top: 5%; }
+    .na-xs-t10 {
+      top: 10%; }
+    .na-xs-t15 {
+      top: 15%; }
+    .na-xs-t20 {
+      top: 20%; }
     .na-xs-t25 {
       top: 25%; }
+    .na-xs-t30 {
+      top: 30%; }
+    .na-xs-t35 {
+      top: 35%; }
+    .na-xs-t40 {
+      top: 40%; }
+    .na-xs-t45 {
+      top: 45%; }
     .na-xs-t50 {
       top: 50%; }
+    .na-xs-t55 {
+      top: 55%; }
+    .na-xs-t60 {
+      top: 60%; }
+    .na-xs-t65 {
+      top: 65%; }
+    .na-xs-t70 {
+      top: 70%; }
     .na-xs-t75 {
       top: 75%; }
+    .na-xs-t80 {
+      top: 80%; }
+    .na-xs-t85 {
+      top: 85%; }
+    .na-xs-t90 {
+      top: 90%; }
+    .na-xs-t95 {
+      top: 95%; }
     .na-xs-t100 {
       top: 100%; }
     .na-xs-r0 {
@@ -319,26 +390,149 @@ You may call as below
   .na-visible-xs-l {
     display: block !important; } }
 
-@media screen and (min-width: 992px) {
-  .na-md-tr0m50 {
-    -webkit-transform: translate(0, -50%);
-    -moz-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%); }
-  .na-md-trm50m50 {
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
-  .na-md-t50 {
-    top: 50%; }
-  .na-md-r0 {
-    right: 0; }
-  .na-md-l0 {
-    left: 0; }
-  .na-md-l50 {
-    left: 50%; }
-  .na-md-pa {
-    position: absolute !important; } }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .na-md- {
+    /* positions */
+    /* top */
+    /* right */
+    /* bottom */
+    /* left */
+    /* floating */
+    /* effects */
+    /* displays */ }
+    .na-md-tr00 {
+      -webkit-transform: translate(0, 0);
+      -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    .na-md-tr0m50 {
+      -webkit-transform: translate(0, -50%);
+      -moz-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%); }
+    .na-md-tr0m100 {
+      -webkit-transform: translate(0, -100%);
+      -moz-transform: translate(0, -100%);
+      -ms-transform: translate(0, -100%);
+      transform: translate(0, -100%); }
+    .na-md-trm500 {
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0); }
+    .na-md-trm50m50 {
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .na-md-trm50m100 {
+      -webkit-transform: translate(-50%, -100%);
+      -moz-transform: translate(-50%, -100%);
+      -ms-transform: translate(-50%, -100%);
+      transform: translate(-50%, -100%); }
+    .na-md-trm1000 {
+      -webkit-transform: translate(-100%, 0);
+      -moz-transform: translate(-100%, 0);
+      -ms-transform: translate(-100%, 0);
+      transform: translate(-100%, 0); }
+    .na-md-trm100m50 {
+      -webkit-transform: translate(-100%, -50%);
+      -moz-transform: translate(-100%, -50%);
+      -ms-transform: translate(-100%, -50%);
+      transform: translate(-100%, -50%); }
+    .na-md-trm100m100 {
+      -webkit-transform: translate(-100%, -100%);
+      -moz-transform: translate(-100%, -100%);
+      -ms-transform: translate(-100%, -100%);
+      transform: translate(-100%, -100%); }
+    .na-md-ps {
+      position: static; }
+    .na-md-pr {
+      position: relative; }
+    .na-md-pa {
+      position: absolute; }
+    .na-md-pf {
+      position: fixed; }
+    .na-md-t0 {
+      top: 0; }
+    .na-md-t5 {
+      top: 5%; }
+    .na-md-t10 {
+      top: 10%; }
+    .na-md-t15 {
+      top: 15%; }
+    .na-md-t20 {
+      top: 20%; }
+    .na-md-t25 {
+      top: 25%; }
+    .na-md-t30 {
+      top: 30%; }
+    .na-md-t35 {
+      top: 35%; }
+    .na-md-t40 {
+      top: 40%; }
+    .na-md-t45 {
+      top: 45%; }
+    .na-md-t50 {
+      top: 50%; }
+    .na-md-t55 {
+      top: 55%; }
+    .na-md-t60 {
+      top: 60%; }
+    .na-md-t65 {
+      top: 65%; }
+    .na-md-t70 {
+      top: 70%; }
+    .na-md-t75 {
+      top: 75%; }
+    .na-md-t80 {
+      top: 80%; }
+    .na-md-t85 {
+      top: 85%; }
+    .na-md-t90 {
+      top: 90%; }
+    .na-md-t95 {
+      top: 95%; }
+    .na-md-t100 {
+      top: 100%; }
+    .na-md-r0 {
+      right: 0; }
+    .na-md-l0 {
+      left: 0; }
+    .na-md-pull-none {
+      float: none !important; }
+    .na-md-pull-left {
+      float: left !important; }
+    .na-md-collapse {
+      display: none; }
+    .na-md-collapse.flipper {
+      -webkit-transform: rotateX(90deg);
+      -moz-transform: rotateX(90deg);
+      -ms-transform: rotateX(90deg);
+      transform: rotateX(90deg);
+      transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
+      -webkit-transform-origin: top center;
+      -moz-transform-origin: top center;
+      -ms-transform-origin: top center;
+      transform-origin: top center;
+      -webkit-transition: all 250ms linear 0s;
+      -moz-transition: all 250ms linear 0s;
+      -ms-transition: all 250ms linear 0s;
+      transition: all 250ms linear 0s;
+      -webkit-backface-visibility: hidden;
+      background-color: transparent; }
+    .na-md-collapse.in {
+      display: block; }
+    .na-md-collapse.flipper.in {
+      -webkit-transform: rotateX(0);
+      -moz-transform: rotateX(0);
+      -ms-transform: rotateX(0);
+      transform: rotateX(0); }
+    .na-md-db {
+      display: block; }
+    .na-md-w100 {
+      width: 100%; } }
 
 /*# sourceMappingURL=schema.css.map */
